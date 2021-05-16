@@ -1,0 +1,55 @@
+{
+   "profile":{
+       "name":"Kyaw Ohn Mar Soe",
+       "mobile_name":"Ohn Mar",
+       "pic":"../assets/img/profile_new.jpg",
+       "title":"Web Developer",
+       "country":"Myanmar",
+       "social":[
+           {"name":"Github", "icon":"../assets/img/icon/001-facebook.svg", "link":"#"},
+           {"name":"LinkedIn", "icon":"../assets/img/icon/001-facebook.svg", "link":"https://www.linkedin.com/in/kyaw-ohn-mar-soe"},
+           {"name":"Facebook", "icon":"../assets/img/icon/001-facebook.svg", "link":"https://www.facebook.com/kyawohnmarsoe"},
+           {"name":"Instagram", "icon":"../assets/img/icon/003-linkedin.svg", "link":"https://www.instagram.com/kyawohnmarsoe"}
+       ],
+       "summary":"Web Developer with 7 years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionality that improve data retrieval and workflow efficiencies.",
+       "education":["Education Bachelor of Computer Science (UCSY)","Education Diploma in Accounting and Business (ACCA)"]
+   },
+   "skills":[
+        {"name":"Language","data":["HTML","CSS","Javascript","PHP","Mysql"]},
+        {"name":"Frameworks","data":["ReactJS","GatsbyJS","CommerceJS","Bootstrap","Laravel"]},
+        {"name":"Others", "data":["Wordpress","Wix","Prestashop","Opencart","Odoo"]}
+   ],
+   "portfolios":[
+       {"name":"Heineken","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"AgilSense","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"Dynamic Asia Power Pte Ltd","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"POKKA","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"Yeo's","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"Sunventure","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"Kuhlmann International","image":"assets/img/portfolios/pokka.jpg","desc":"abc"},
+       {"name":"DNHYBRID","image":"assets/img/portfolios/pokka.jpg","desc":"abc"}
+   ],
+   "activities":[
+       {"title1":"Volunteering","title2":"At SEA Games","image":"assets/img/activities/seagames/1.jpg","target":"#seagamesModal"},
+       {"title1":"Company's","title2":"Staff Parties","image":"assets/img/activities/company/3.jpg","target":"#companyModal"},
+       {"title1":"Participate In","title2":"Running Races","image":"assets/img/activities/running/1.jpg","target":"#runningModal"}
+   ],
+   "modal":[
+       { "id":"seagamesModal",
+        "captionId":"seagamesModalCaptions",
+        "label":"seagamesModalLabel",
+        "images":["assets/img/activities/seagames/1.jpg","assets/img/activities/seagames/2.jpg","assets/img/activities/seagames/3.jpg","assets/img/activities/seagames/4.jpg","assets/img/activities/seagames/5.jpg"]
+        },
+        { "id":"companyModal",
+            "captionId":"companyModalCaptions",
+            "label":"companyModalLabel",
+            "images":["assets/img/activities/company/1.jpg","assets/img/activities/company/2.jpg","assets/img/activities/company/3.jpg","assets/img/activities/company/4.jpg","assets/img/activities/company/5.jpg"]
+        },
+        { "id":"runningModal",
+            "captionId":"runningModalCaptions",
+            "label":"runningModalLabel",
+            "images":["assets/img/activities/running/1.jpg","assets/img/activities/running/2.jpg","assets/img/activities/running/3.jpg","assets/img/activities/running/4.jpg","assets/img/activities/running/5.jpg"]
+        }
+   ]
+
+}
